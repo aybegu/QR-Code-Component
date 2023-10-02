@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.attribution {
+     font-size: 11px; text-align: center; 
+    }
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
+
+body{
+    background-color: hsl(212, 45%, 89%); /* ligth gray */
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /*viewport height yani goruntu alani yuksekligidir-100vh toplam goruntu alani yuksekligidir */
+}
+
+.ana{
+    background-color: hsl(0, 0%, 100%); /* white */
+    border-radius: 17px;
+    padding: 1.25rem;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
+    max-width: 270px;
+}
+
+.ana p{
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
+.ana h2{
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.ana img{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
